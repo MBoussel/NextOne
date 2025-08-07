@@ -14,9 +14,9 @@ export default function MiniGamesBlock() {
   const games = [
     {
       id: 1,
-      title: "BREAKOUT",
-      image: breakoutImg,
-      route: "/breakout",
+      title: "TIC-TAC-TOE",
+      image: tttImg,
+      route: "/tic-tac-toe",
     },
     {
       id: 2,
@@ -25,16 +25,16 @@ export default function MiniGamesBlock() {
       route: "/snake",
     },
     {
-      id: 3,
+      id: 4,
       title: "DINOSAURE",
       image: dinoImg,
       route: "/dino",
     },
     {
-      id: 4,
-      title: "TIC-TAC-TOE",
-      image: tttImg,
-      route: "/tic-tac-toe",
+      id: 3,
+      title: "BREAKOUT",
+      image: breakoutImg,
+      route: "/breakout",
     },
   ];
 
