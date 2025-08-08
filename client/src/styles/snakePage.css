@@ -1,0 +1,83 @@
+.home-section-snake {
+  background: rgba(0, 0, 0, 0.6);
+  border: 2px solid #00ffff;
+  box-shadow: 0 0 12px #00ffff55;
+  padding: 0rem;
+  border-radius: 20px;
+  width: 100%;
+  z-index: 1;
+  margin-top: 4em;
+}
+.mini-games-content-snake {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.texte-snake {
+  font-family: "Orbitron", sans-serif;
+  color: #00ffff;
+  text-shadow: 0 0 0.3rem #00ffff;
+  width: 20%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.game-ranking-block-snake {
+  flex: 0 0 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 2.6rem;
+  text-align: center;
+}
+
+.game-ranking-block-snake strong {
+  font-family: "Orbitron", sans-serif;
+  color: #00ffff;
+  text-shadow: 0 0 0.3rem #00ffff;
+  margin-bottom: 0.4rem;
+  text-align: center;
+}
+
+.game-ranking-block-snake ul {
+  list-style: decimal;
+  font-size: 0.85rem;
+  color: #fff;
+  margin: 0;
+  text-align: left;
+  padding-left: 1em;
+}
+
+.game-ranking-block-snake li {
+  margin-bottom: 0.3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .home-section-snake {
+    width: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin: 1em 1.2em;
+  }
+  .mini-games-container-snake {
+    margin-top: 1rem;
+    padding: 1rem 0.25rem;
+    gap: 1.5rem;
+  }
+  .mini-games-content-snake {
+    margin-top: 2rem;
+  }
+
+  .game-ranking-block-snake {
+    display: none;
+  }
+  .texte-snake {
+    display: none;
+  }
+}
+@media screen and (min-width: 769px) {
+  .home-section-snake {
+    margin: 11em 0em;
+  }
+}
